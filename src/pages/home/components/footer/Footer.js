@@ -110,11 +110,11 @@ const toddleMoreOptions = [
   "Terms of Use",
 ];
 
-export const Footer = () => {
+const Footer = () => {
   const classes = useStyles();
   return (
-    <Stack margin="0 10%">
-      <Divider color="#DBDBDB"/>
+    <Stack margin="0 8.2%">
+      <Divider color="#DBDBDB" />
       <Stack
         padding={"5% 2%"}
         direction={"row"}
@@ -201,3 +201,5 @@ export const Footer = () => {
     </Stack>
   );
 };
+
+export default Footer;

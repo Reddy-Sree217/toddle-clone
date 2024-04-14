@@ -28,8 +28,8 @@ const MainBody1 = () => {
                 <Typography>the tools they need to deliver progressive, future-ready education.</Typography>
             </Stack>
             <Stack direction={"row"} gap={5} mt={4}>
-                <Button variant='contained' sx={{ padding: "14px 16px", borderRadius: "8px" }}>Learn more about Toddle AI</Button>
-                <Button variant='contained' sx={{ padding: "14px 16px", background: "#000", borderRadius: "8px" }}>Book a free Demo</Button>
+                <Button variant='contained' sx={{ padding: "14px 16px", borderRadius: "8px", textTransform:'none' }}>Learn more about Toddle AI</Button>
+                <Button variant='contained' sx={{ padding: "14px 16px", background: "#000", borderRadius: "8px", textTransform:'none' }}>Book a free Demo</Button>
             </Stack>
         </div>
     )

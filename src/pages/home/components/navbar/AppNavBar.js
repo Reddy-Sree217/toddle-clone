@@ -14,8 +14,8 @@ const AppNavBar = () => {
                     <Typography p={"30px 0"} m={"0 28px"} color={"#000"} fontWeight={"600"}>Play Summit 2024</Typography>
                 </Stack>
                 <Stack direction={"row"} gap={6}>
-                    <Button variant='text' sx={{ "color": '#000' }}>Sign In</Button>
-                    <Button variant='contained' sx={{ "padding": "15.5px 17px", background: "#f75961", borderRadius: "8px" }}>Book a free Demo</Button>
+                    <Button variant='text' sx={{ "color": '#000', textTransform:'none' }}>Sign In</Button>
+                    <Button variant='contained' sx={{ "padding": "15.5px 17px", background: "#f75961", borderRadius: "8px", textTransform:'none' }}>Book a free Demo</Button>
                 </Stack>
             </Stack>
         </div>
