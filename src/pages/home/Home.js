@@ -8,6 +8,7 @@ import BookFreeDemo from "./components/bookFreeDemo/BookFreeDemo";
 import ScrollAdv from "./components/scrollAdv/ScrollAdv";
 import ToddleNumbers from "./components/toddleNumbers/ToddleNumbers";
 import Educators from "./components/educators/Educators";
+import Curriculum from "./components/curriculum/Curriculum";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
       <ScrollAdv />
       <ToddleNumbers />
       <Educators />
+      <Curriculum />
       <Privacy />
       <BookFreeDemo />
       <Footer />
