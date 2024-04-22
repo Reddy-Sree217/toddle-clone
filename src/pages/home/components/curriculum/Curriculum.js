@@ -42,7 +42,7 @@ const CURRICULUM_FRAMEWORKS = {
 
 const Curriculum = () => {
   return (
-    <div style={{"padding":"10vh 0"}}>
+    <div style={{ padding: "10vh 0" }}>
       <Stack direction="row" justifyContent="space-between">
         <img
           width="200px"
